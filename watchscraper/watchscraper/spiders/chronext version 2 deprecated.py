@@ -5,7 +5,7 @@ from ..items import WatchscraperItem
 # das scrapy.Spider ist Vererbung
 
 class WatchSpiderChronext2(scrapy.Spider):
-    name = "chronext2"
+    name = "test2"
     offset = 24
     start_urls = {
         "https://www.chronext.de/kaufen?s%5Bef5bfee0-c7d4-470e-82e2-39d397cb3750%5D%5Boffset%5D=0"

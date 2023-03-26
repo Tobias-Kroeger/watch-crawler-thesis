@@ -20,8 +20,8 @@ class WatchscraperPipeline:
 
 
         )
-        db = self.conn["chronext"]
-        self.collection = db["chronext_test"]
+        db = self.conn["Bachelorarbeit"]
+        self.collection = db["watches"]
 
 
     def process_item(self, item, spider):

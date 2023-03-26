@@ -15,8 +15,10 @@ NEWSPIDER_MODULE = "watchscraper.spiders"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "watchscraper (+http://www.yourdomain.com)"
-USER_AGENT = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; " \
-             "+http://www.google.com/bot.html) Chrome/83.0.4103.122 Safari/537.36"
+# USER_AGENT = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; " \
+#              "+http://www.google.com/bot.html) Chrome/83.0.4103.122 Safari/537.36"
+USER_AGENT = 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True

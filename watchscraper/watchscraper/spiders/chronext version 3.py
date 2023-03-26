@@ -13,7 +13,7 @@ class WatchSpiderChronext3(CrawlSpider):
     custom_settings = {
         'CONCURRENT_REQUESTS': 64
     }
-    name = "watch"
+    name = "chronext"
     allowed_domains = ["chronext.de"]
     start_urls = {
         "https://www.chronext.de/kaufen?s%5Bef5bfee0-c7d4-470e-82e2-39d397cb3750%5D%5Boffset%5D=0"
@@ -47,7 +47,7 @@ class WatchSpiderChronext3(CrawlSpider):
         # values = response.css(".specification__value::text").extract()
         values = response.css(".specification__wrapper div::text").extract()
 
-        print(values)
+        # print(values)
         if len(values) > 0:
             try:
                 brand = values[values.index("Marke") + 1]
